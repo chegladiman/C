@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1504047235 source:c:\users\alumno\desktop\facu\biblios.c
+
+1504046627 c:\users\alumno\desktop\facu\biblios.h
+
+1504052323 source:c:\users\alumno\desktop\facu\main.c
+	<stdio.h>
+	<stdlib.h>
+

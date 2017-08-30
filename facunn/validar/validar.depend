@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1504054309 source:c:\users\alumno\desktop\validar\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
