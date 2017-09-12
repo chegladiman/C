@@ -34,9 +34,9 @@ int main()
                 strcpy(auxNom,nombre[i]);
                 strcpy(nombre[i],nombre[j]);
                 strcpy(nombre[j],auxNom);
-                NotaAux=nota[i];
+                notaAux=nota[i];
                 nota[i]=nota[j];
-                nota[j]=NotaAux;
+                nota[j]=notaAux;
 
             }
         }
