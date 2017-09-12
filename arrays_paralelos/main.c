@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define CANT  31
+#define CANT  3
 
 
 
@@ -40,10 +40,11 @@ int main()
 
             }
         }
-     }
-}       for(i=0;i<CANT;i++){
-        printf("El nombre es: %s",nombre);
+     }for(i=0;i<CANT;i++){
+        printf("El nombre es: %d",nombre);
         printf("La nota es: %s",nota);
-
+     }
 }
+
+
 
