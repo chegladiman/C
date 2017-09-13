@@ -1,25 +1,29 @@
 #include <stdio.h>
 #include <string.h>
-struct fecha { int dia,mes,anio;};
-struct gente {
-char nombre[20];
-struct fecha f_nacimiento;
-};
-void main(void)
-{
-struct gente pers;
-struct fecha fn;
-printf("Ingrese nombre: ");
-gets(pers.nombre);
-printf("Ingrese dia de nacimiento: ");
-scanf("%d",&fn.dia);
-printf("Ingrese mes de nacimiento: ");
-scanf("%d",&fn.mes);
-printf("Ingrese a¤o de nacimiento: ");
-scanf("%d",&fn.anio);
-pers.f_nacimiento=fn;
+#include "funcionesAsignaciones.h"
 
-printf("El nombre es: %s",pers.nombre);
-printf("\nLa fecha de nacimiento es: %d/%d/%d",fn.dia,fn.mes,fn.anio);
+int main()
+{
+    struct alumno alumnos[2];
+    int i;
+        for(i=0;i<2;i++){
+
+    printf("Ingrese nombre: ");
+    fflush(stdin);
+    gets(&alumnos[i].nombre);
+
+    printf("Ingrese legajo: ");
+    scanf("%d",&alumnos[i].legajo);
+        }
+
+
+    for(i=0;i<2;i++){
+    printf("\nAlumno ingresado: %s",alumnos[i].nombre);
+    printf("\nLegajo Nro.: %d",alumnos[i].legajo);
+    }
+
+
+
+
 
 }

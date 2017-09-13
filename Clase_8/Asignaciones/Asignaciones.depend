@@ -1,5 +1,8 @@
 # depslib dependency file v1.0
-1505262042 source:c:\users\alumno\desktop\facu\clase_8\asignaciones\main.c
+1505264443 source:c:\users\alumno\desktop\facu\clase_8\asignaciones\main.c
 	<stdio.h>
 	<string.h>
+	"funcionesAsignaciones.h"
+
+1505263954 c:\users\alumno\desktop\facu\clase_8\asignaciones\funcionesasignaciones.h
 
